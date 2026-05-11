@@ -56,6 +56,7 @@ jobs:
               AssessorApimSubscriptionKey: $(AssessorApimSubscriptionKey)
               NServiceBusLicense: $(NServiceBusLicense)
               PrintCertificatesBlobSasTokenGeneratorSasExpiryDays: $(PrintCertificatesBlobSasTokenGeneratorSasExpiryDays)
+              DataCollectionApiAuthenticationClientSecret: $(DataCollectionApiAuthenticationClientSecret)
         - template: azure-pipelines-templates/deploy/step/app-role-assignments.yml@das-platform-building-blocks
           parameters:
             ServiceConnection: ${{ parameters.AppRoleAssignmentsServiceConnection }}
