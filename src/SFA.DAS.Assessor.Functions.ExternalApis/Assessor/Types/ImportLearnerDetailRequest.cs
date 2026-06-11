@@ -13,6 +13,7 @@ namespace SFA.DAS.Assessor.Functions.ExternalApis.Assessor.Types
         public string Source { get; set; }
         public int? Ukprn { get; set; }
         public long? Uln { get; set; }
+        public DateTime? DateOfBirth { get; set; }
         public int? StdCode { get; set; }
         public int? FundingModel { get; set; }
         public string GivenNames { get; set; }

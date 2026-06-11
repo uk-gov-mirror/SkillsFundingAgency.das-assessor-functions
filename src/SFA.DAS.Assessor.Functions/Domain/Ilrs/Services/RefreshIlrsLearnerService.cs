@@ -7,10 +7,6 @@ using SFA.DAS.Assessor.Functions.ExternalApis.Assessor.Types;
 using SFA.DAS.Assessor.Functions.ExternalApis.DataCollection;
 using SFA.DAS.Assessor.Functions.Infrastructure;
 using SFA.DAS.Assessor.Functions.Infrastructure.Options.RefreshIlrs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SFA.DAS.Assessor.Functions.Domain.Ilrs.Services
 {
@@ -117,6 +113,7 @@ namespace SFA.DAS.Assessor.Functions.Domain.Ilrs.Services
                         Ukprn = p.Learner.Ukprn,
                         Uln = p.Learner.Uln,
                         StdCode = p.LearningDelivery.StdCode,
+                        DateOfBirth = p.Learner.DateOfBirth,
                         FundingModel = p.LearningDelivery.FundModel,
                         GivenNames = p.Learner.GivenNames,
                         FamilyName = p.Learner.FamilyName,
