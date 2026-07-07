@@ -6,13 +6,7 @@
     <OutputType>Exe</OutputType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
-  <ItemGroup>
-    <Content Include="local.settings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  <CopyToPublishDirectory>Never</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
+  </PropertyGroup> 
   <ItemGroup>
     <PackageReference Include="Azure.Monitor.OpenTelemetry.AspNetCore" Version="1.5.0" />
     <PackageReference Include="CsvHelper" Version="33.1.0" />
