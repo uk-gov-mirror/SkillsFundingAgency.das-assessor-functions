@@ -20,7 +20,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <!-- Transitive references from SFA.DAS.NLog.Targets.Redis can be removed once that nuget package is updated to .net 8-->
+    <!-- Transitive references from SFA.DAS.NLog.Targets.Redis can be removed once that nuget package is updated to .net 10-->
     <!-- deprecated warning for NLog.Config will also be resolved when this package is upgraded -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.9" />
